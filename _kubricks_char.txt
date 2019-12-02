@@ -1,0 +1,13 @@
+	PHOT	CARN	MOTILE
+Kubrickus aus	0	1	1
+Kubrickus beus	1	0	0
+Kubrickus ceus	1	0	0
+Kubrickus deus	0	1	0
+Kubrickus eus	0	1	1
+Kubrickus feus	1	1	1
+Kubrickus geus	0	1	1
+Kubrickus heus	1	0	1
+Kubrickus ieus	0	0	0
+Kubrickus jeus	0	1	1
+Kubrickus keus	0	1	0
+Kubrickus leus	1	1	1

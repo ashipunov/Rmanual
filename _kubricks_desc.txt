@@ -1,0 +1,3 @@
+	PHOT	CARN	MOTILE
+0	Non-photosynthetic	non-carnivorous	non-motile
+1	Photosynthetic	carnivorous	motile

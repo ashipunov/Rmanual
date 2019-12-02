@@ -1,0 +1,14 @@
+Kubrickus aus	kubrick_a.pdf
+Kubrickus beus	kubrick_b.pdf
+Kubrickus ceus	kubrick_c.pdf
+Kubrickus deus	kubrick_d.pdf
+Kubrickus eus	kubrick_e.pdf
+Kubrickus feus	kubrick_f.pdf
+Kubrickus geus	kubrick_g.pdf
+Kubrickus heus	kubrick_h.pdf
+Kubrickus ieus	kubrick_i.pdf
+Kubrickus jeus	kubrick_j.pdf
+Kubrickus keus	kubrick_k.pdf
+Kubrickus leus	kubrick_l.pdf
+Kubrickus lleus	kubrick_l2.pdf
+

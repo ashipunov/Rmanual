@@ -1,0 +1,50 @@
+\documentclass[12pt]{report} % change if you want, e.g., smaller fonts
+\usepackage{%
+graphicx,
+hyperref,
+geometry,
+paratype} % change the font package if needed
+
+% Page size (A5), change it to the size you need
+\geometry{paperheight=210mm,paperwidth=148mm,margin=14mm,top=26mm}
+
+% Define sections
+\newcommand{\FF}[1]{\section{#1}}
+\renewcommand{\thesection}{\arabic{section}} % there are no chapters
+
+% Define species names
+\newcommand{\KK}[1]{\textit{#1}}
+\newcommand{\SP}[1]{{\bigskip\noindent\textbf{#1}\par\nopagebreak[4]\medskip}}
+
+% Define dscriptions
+\newcommand{\DD}[1]{{\medskip\noindent\leftskip1.2em\small\textbf{Description:} #1.\par}}
+
+% Define images
+\newcommand{\I}[1]{\includegraphics{images/#1}\quad}
+\newcommand{\II}[1]{{\nopagebreak\medskip\raggedright\noindent\leftskip1.2em #1\par\bigskip}}
+
+% Title page
+\title{How to Know Kubricks}
+\author{Illustrated Manual}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\sloppy % useful because it is hard to control "0body" manually
+
+\vspace*{8ex}
+
+In this manual, kubricks are named with scientific binomial names, so
+common name of, e.g., \emph{Kubrickus beus} is ``kubrick B''. It is
+assumed that all kubricks belong to one genus, therefore largest
+subdivisions are \textbf{subgenera}. According to the rules of biological
+nomenclature, name of one subgenus (``autonym'') should be identical to
+genus name: \emph{Kubrickus}.
+
+\input 0body
+
+\end{document}

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for file in *svg
+do
+    fname="${file%.*}"
+    echo "Converting $file..."
+    inkscape --export-pdf=../$fname.pdf $file
+done

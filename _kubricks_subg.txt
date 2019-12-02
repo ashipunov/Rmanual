@@ -1,0 +1,12 @@
+Kubrickus aus	Kubrickus
+Kubrickus beus	Sedentaria
+Kubrickus ceus	Sedentaria
+Kubrickus deus	Sedentaria
+Kubrickus eus	Kubrickus
+Kubrickus feus	Kubrickus
+Kubrickus geus	Kubrickus
+Kubrickus heus	Minores
+Kubrickus ieus	Sedentaria
+Kubrickus jeus	Kubrickus
+Kubrickus keus	Sedentaria
+Kubrickus leus	Cycloidea

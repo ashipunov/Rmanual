@@ -1,0 +1,53 @@
+***HOW TO INSTALL RMANUAL***
+
+All platforms:
+=============
+
+You will need:
+
+R with working Rscript command (check it by typing in the terminal window
+"Rscript", there should come some short instructions of how to use it)
+
+The "shipunov" package
+
+Full TeX installation (preferably TeXLive, google to know how)
+
+(Optionally) If you need to edit supplied SVG files, you might want to
+install Inkscape
+
+Windows:
+========
+
+Install bash UNIX shell, e.g. from https://cygwin.com/install.html
+
+(Optional) Install good terminal application, e.g., ConEmu or cmder
+(google these names)
+
+macOS and Linux:
+================
+
+No additional installations required
+
+***HOW TO USE RMANUAL***
+
+Run the example:
+================
+
+In the terminal, make Ripeline directory current, e.g., enter in
+the terminal window something like "cd ~/some/dir/ripeline"
+
+In the terminal, run the shell script "make_all", e.g., enter in the
+terminal window "bash ./make_all"
+
+On the Intel Core i5 with SSD and 8 Gb memory it runs approximately 5 sec
+
+Check the resulted manual PDF
+
+Play with this example as long as you like, e.g., add some data,
+comment (with "#") or remove some data etc.
+
+Run with your data:
+===================
+
+The best way is to replace the example files with your own files
+made _in the same way_, and run again

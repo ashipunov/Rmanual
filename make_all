@@ -1,0 +1,5 @@
+#!/bin/bash
+
+Rscript kubricks_manu.r
+pdflatex kubricks_manu.tex
+pdflatex kubricks_manu.tex
