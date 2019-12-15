@@ -1,0 +1,3 @@
+# This table helps to translate character state codes into the text
+# Row names are 0 (no) or 1 (yes)
+# Column names are names of chacracters from "_kubricks_char.txt"

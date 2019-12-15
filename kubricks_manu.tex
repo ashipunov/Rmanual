@@ -1,25 +1,25 @@
-\documentclass[12pt]{report} % change if you want, e.g., smaller fonts
+\documentclass[12pt]{report} % change if you want, e.g., smaller fonts; "report" is like "book" but simpler
 \usepackage{%
-graphicx,
-hyperref,
-geometry,
+graphicx, % use images
+hyperref, % use links and hyperlinks
+geometry, % change page size and margins
 paratype} % change the font package if needed
 
 % Page size (A5), change it to the size you need
 \geometry{paperheight=210mm,paperwidth=148mm,margin=14mm,top=26mm}
 
-% Define sections
+% Define sections and section-like
 \newcommand{\FF}[1]{\section{#1}}
-\renewcommand{\thesection}{\arabic{section}} % there are no chapters
+\renewcommand{\thesection}{\arabic{section}} % there are no chapters so section numbered independently
 
 % Define species names
 \newcommand{\KK}[1]{\textit{#1}}
 \newcommand{\SP}[1]{{\bigskip\noindent\textbf{#1}\par\nopagebreak[4]\medskip}}
 
-% Define dscriptions
+% Define species descriptions
 \newcommand{\DD}[1]{{\medskip\noindent\leftskip1.2em\small\textbf{Description:} #1.\par}}
 
-% Define images
+% Define figures
 \newcommand{\I}[1]{\includegraphics{images/#1}\quad}
 \newcommand{\II}[1]{{\nopagebreak\medskip\raggedright\noindent\leftskip1.2em #1\par\bigskip}}
 
@@ -34,7 +34,7 @@ paratype} % change the font package if needed
 
 \tableofcontents
 
-\sloppy % useful because it is hard to control "0body" manually
+\sloppy % useful because it is hard to control formatting of the "0body" manually
 
 \vspace*{8ex}
 
@@ -45,6 +45,6 @@ subdivisions are \textbf{subgenera}. According to the rules of biological
 nomenclature, name of one subgenus (``autonym'') should be identical to
 genus name: \emph{Kubrickus}.
 
-\input 0body
+\input 0body % insert the "table" outputted from R
 
 \end{document}

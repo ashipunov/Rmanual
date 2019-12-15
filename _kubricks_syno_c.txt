@@ -1,0 +1,4 @@
+# "Filter" table of synonyms
+# First column is the (invalid) species name
+# Second column is the valid species name
+# Third column is a note which describes, e.g., type of synonym

@@ -1,0 +1,7 @@
+# Table of characters, also plays a role of "main" table (where all species names listed)
+# Row names are species names
+# Colyumns:
+PHOT	photosynthetic?
+CARN	carnivorious?
+MOTILE	motile?
+

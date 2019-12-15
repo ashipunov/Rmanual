@@ -3,11 +3,16 @@
 0body	outputted body of the manual
 0no_pics.txt	output diagnostics: species without images
 0no_subg.txt	output diagnostics: species without subgenus
-_kubricks_char.txt	input table of characters, this is the main table
+_kubricks_char.txt	input table of characters; this is the main table
+_kubricks_char_c.txt	explanation of variables in the "char" table
 _kubricks_desc.txt	input table of descriptions (how to translate character codes into words)
+_kubricks_desc_c.txt	explanation of variables in the "desc" table
 _kubricks_pics.txt	input table of images
+_kubricks_pics_c.txt	explanation of variables in the "pics" table
 _kubricks_subg.txt	input table of sugbenera
+_kubricks_subg_c.txt	explanation of variables in the "subg" table
 _kubricks_syno.txt	input table of synonyms
+_kubricks_syno_c.txt	explanation of variables in the "syno" table
 kubricks_manu.aux	auxillary TeX file
 kubricks_manu.log	auxillary TeX file
 kubricks_manu.out	auxillary TeX file
